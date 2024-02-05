@@ -14,6 +14,7 @@
 .navbar-mobile {
   display: none;
 }
+
 .logo {
   height: 33px;
 }
@@ -32,6 +33,36 @@
   background: transparent;
   outline: none;
 }
+
+.navbar-mobile {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #202853;
+    padding: 0.8rem;
+  }
+  .navbar-mobile .nav-links {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .navbar-mobile .nav-search button {
+    border: none;
+    border: 1px solid gray;
+    padding: 0.4rem 0.8rem;
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  .navbar-mobile .nav-search button img {
+    height: 18px;
+    padding-left: 0.4rem;
+  }
+
+
 .section-1 {
   display: flex;
   flex-direction: column;
@@ -41,6 +72,12 @@
 }
 .crypto_Price {
   padding: 1rem 2rem;
+}
+.crypto_Price .green{
+    color: #14ff00;
+}
+.crypto_Price .red{
+    color: #ff0000;
 }
 .crypto_Price p {
   font-size: 22px;
@@ -97,7 +134,7 @@ th {
   background: linear-gradient(to left, #0997e8, #3dd8ee);
   color: #fff;
   outline: none;
-  width: 170px;
+  width: 140px;
   cursor: pointer;
   height: 50px;
   border-radius: 8px;
@@ -200,7 +237,7 @@ h6 {
   align-items: center;
   flex-direction: column;
   padding: 1rem;
-  box-shadow: 2px 1px 8px -4px #fff;
+  box-shadow: 1px -1px 18px -6px #fff
 }
 
 .section-3 .right-inner h4 {
@@ -253,12 +290,12 @@ color: #fff;
 font-weight: 400;
 font-size: 18px;
 line-height: 30px;
-width: 60%;
+width: 85%;
 }
 .footer-right{
     display: flex;
     justify-content: space-around;
-    gap: 4rem;
+    gap: 6rem;
 }
 .footer-right h4{
     font-size: 20px;
@@ -291,4 +328,13 @@ width: 60%;
     flex-direction: column;
     align-items: normal;
     justify-content: flex-start;
+}
+.copyright{
+    background-color: #142346;
+}
+.copyright p{
+    color: #fff;
+    padding: .5rem;
+    font-size: 14px;
+    text-align: center;
 }
