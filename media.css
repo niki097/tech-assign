@@ -1,0 +1,134 @@
+@media screen and (max-width:480px) {
+    .section-1 {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .details table {
+        width: auto;
+        margin: 0rem;
+        overflow: auto;
+    }
+    .crypto_Price {
+        padding: 10px;
+    }
+    .navbar{
+        display: none;
+    }
+    .navbar-mobile {
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        background: #202853;
+        text-align: -webkit-right;
+        padding: .8rem;
+    }
+    .navbar-mobile .nav-links{
+        padding: 0;
+        display: block;
+    }
+    .navbar-mobile .nav-search button{
+        border: none;
+        border: 1px solid gray;
+        padding: .4rem .8rem;
+        border-radius: 8px;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+
+    }
+    .navbar-mobile .nav-search button img{
+        height: 18px;
+        padding-left: .4rem;
+    }
+    .section-2{
+        display: block;
+    }
+    .section-2 .left{
+        display: flex;
+        justify-content: center;
+    }
+    .section-2 .left img {
+        height: 260px;
+    }
+    .section-3 {
+        display: block;
+        padding: 2rem;
+    }
+    .section-3 .right{
+       height: auto;
+    }
+    .footer{
+        display: block;
+    }
+    .footer-left img {
+        height: 35px;
+    }
+    .footer-left h5 {
+        width: auto;
+    }
+    .footer-right {
+        margin: 2rem;
+    }
+
+    .section-3 .left h4 {
+        font-size: 24px;
+    }
+}
+@media only screen and (max-width:768px) and (min-width:481px) {
+    .section-1 {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .details table {
+        width: auto;
+        margin: 0rem;
+        overflow: auto;
+    }
+    .section-2{
+        display: block;
+    }
+    .section-2 .left img {
+        height: 400px;
+    }
+    .section-2 .left{
+        display: flex;
+        justify-content: center;
+    }
+    .section-3 .left h4 {
+        font-size: 27px;
+    }
+    .footer{
+        display: block;
+    }
+    .footer-left img {
+        height: 35px;
+    }
+    .footer-left h5 {
+        width: auto;
+    }
+    .footer-right {
+        margin: 2rem;
+    }
+    
+}
+@media only screen and (max-width:986px) and (min-width:769px) {
+    .section-2{
+        display: block;
+    }
+    .section-2 .left{
+        display: flex;
+        justify-content: center;
+    }
+    .section-2 .left img {
+        height: 500px;
+    }
+    .footer-left img {
+        height: 40px;
+    }
+    .footer-left h5 {
+        width: auto;
+    }
+}

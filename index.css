@@ -1,0 +1,294 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #202853;
+  padding: 1rem;
+}
+.navbar-mobile {
+  display: none;
+}
+.logo {
+  height: 33px;
+}
+.nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  font-size: 15px;
+}
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+.nav-search button {
+  border: none;
+  background: transparent;
+  outline: none;
+}
+.section-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem 2.5rem;
+  background-color: #142346;
+}
+.crypto_Price {
+  padding: 1rem 2rem;
+}
+.crypto_Price p {
+  font-size: 22px;
+  font-weight: 500;
+  color: #fff;
+}
+.crypto_Price h5 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+}
+.details table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #fff;
+  margin: 2rem;
+  overflow: auto;
+}
+.details table td,
+th {
+  text-align: left;
+  padding: 10px;
+  text-align: left;
+  font-size: 17px;
+  font-weight: 500;
+}
+.details td img {
+  height: 30px;
+}
+.tr-1 td:nth-child(3) {
+  color: #14ff00;
+}
+.tr-2 td:nth-child(3) {
+  color: #ff0000;
+}
+.td-1 {
+  display: flex;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  gap: 20px;
+}
+.td-1 span {
+  color: #858585;
+  font-size: 16px;
+}
+.view-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.view-button button {
+  border: none;
+  background: linear-gradient(to left, #0997e8, #3dd8ee);
+  color: #fff;
+  outline: none;
+  width: 170px;
+  cursor: pointer;
+  height: 50px;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+/* -----------section-2------------ */
+.section-2 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #00092a;
+  padding: 2rem;
+}
+.section-2 .left img {
+  height: 500px;
+}
+.section-2 .right {
+  margin-top: 2rem;
+  color: #fff;
+  font-weight: 400;
+}
+.section-2 .right h4 {
+  font-size: 36px;
+  font-weight: 400;
+}
+.section-2 .right p {
+  font-size: 15px;
+  padding: 1rem 0;
+}
+.section-2 .right .trusted_platform {
+  display: flex;
+  margin: 1rem 0;
+}
+.section-2 .right .trusted_platform span {
+  background-color: #202853;
+  width: 96px;
+  height: 70px;
+  margin-right: 0.5rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.section-2 .right .trusted_platform span img {
+  height: 25px;
+}
+.section-2 .right .trusted_platform .clarity p {
+  padding: 0;
+}
+
+/* -------------section-3 */
+
+.section-3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3rem;
+  background-color: #122145;
+}
+.section-3 .left h4 {
+  font-size: 36px;
+  color: #fff;
+  font-weight: 500;
+}
+.section-3 .left-inner {
+  display: flex;
+  margin: 2rem 0;
+  gap: 10px;
+}
+.section-3 .left-inner img {
+  height: 25px;
+  margin-top: 5px;
+}
+.section-3 .left-inner .buying-_bitcoin h5,
+h6 {
+  color: #fff;
+  font-weight: 400;
+  padding: 0;
+}
+.section-3 .left-inner .buying-_bitcoin h5 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+.section-3 .left-inner .buying-_bitcoin h6 {
+  width: 60%;
+}
+
+.section-3 .right {
+    background: url("img/Group\ 37.png");
+    height: 321px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+.section-3 .right-inner {
+  background: linear-gradient(to right, #142346, rgb(7 14 41 / 68%));
+  width: 250px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  box-shadow: 2px 1px 8px -4px #fff;
+}
+
+.section-3 .right-inner h4 {
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.section-3 .right-inner .portfolio {
+  display: flex;
+  gap: 30px;
+  margin: 0.4rem 0;
+  align-items: center;
+}
+.section-3 .right-inner .portfolio span {
+  background-color: #fff;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-3 .right-inner .portfolio span img {
+  height: 26px;
+}
+.section-3 .right-inner .portfolio h5 {
+  color: #fff;
+}
+.section-3 .right-inner .portfolio div p {
+  color: #14ff00;
+}
+.section-3 .right-inner .portfolio div p img {
+  height: 16px;
+}
+
+
+/* ---------------footer------------------ */
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+    background-color: #00092A;
+}
+.footer-left img{
+    height: 45px;
+}
+.footer-left h5{
+color: #fff;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+width: 60%;
+}
+.footer-right{
+    display: flex;
+    justify-content: space-around;
+    gap: 4rem;
+}
+.footer-right h4{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+}
+.footer-right a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 15px;
+}
+.company{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: normal;
+    justify-content: flex-start;
+}
+.supports{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: normal;
+    justify-content: flex-start;
+}
+.socials{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: normal;
+    justify-content: flex-start;
+}
